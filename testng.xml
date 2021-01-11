@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="departurecity" value="Paris"></parameter>
+<parameter name="destinationcity" value="London"></parameter>
+<parameter name="customername" value="Sneha.R"></parameter>
+<parameter name="customeraddress" value="5/513 B5 Krishnanagar"></parameter>
+<parameter name="customercity" value="Tuticorin"></parameter>
+<parameter name="customerstate" value="Tamilnadu"></parameter>
+<parameter name="customerzipcode" value="628503"></parameter>
+<parameter name="cardtype" value="American Express"></parameter>
+<parameter name="cardno" value="7894561237894562"></parameter>
+<parameter name="cardmonth" value="07"></parameter>
+<parameter name="cardyear" value="2023"></parameter>
+<parameter name="nameoncard" value="sneha"></parameter>
+  <test thread-count="12" name="Test">
+  </test> 
+</suite> 
