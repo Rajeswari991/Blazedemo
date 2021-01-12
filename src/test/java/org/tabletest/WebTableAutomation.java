@@ -16,6 +16,7 @@ public class WebTableAutomation extends BaseClass {
 	private void systemLoad() {
 		sysLoad();
 		url("https://blazedemo.com/");
+		System.out.println("start");
     }
 	
 	@AfterClass
